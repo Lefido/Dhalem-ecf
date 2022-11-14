@@ -1,0 +1,70 @@
+/*
+
+Theme Name: Dhalem
+Theme URI: http://dhalem-ecf.test
+Author: Frederic BOUSSEMART
+Description: Mon theme - Dhalem
+Requires at least: WordPress 6.1
+Version: 1.0
+
+ */
+
+
+@import "assets/reset.css";
+@import "assets/global.css";
+@import "assets/headings.css";
+@import "assets/wp-blocks/wp-blocks.css";
+
+
+* {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body {
+    width: 1280px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu li {
+    padding: 10px 20px;
+}
+
+.menu li:last-child {
+    border-radius: 50px;
+    background-color: #3854B5;
+    color: white;
+
+}
+
+.menu a {
+    color: black;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*.menu li a:last-child {*/
+/*    padding: 10px;*/
+/*}*/
+
+
+
+
+
+
